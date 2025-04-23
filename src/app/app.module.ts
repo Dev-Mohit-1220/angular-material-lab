@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { RouterModule } from '@angular/router';
 import { AmlLayoutModule } from './layouts/aml-layout/aml-layout.module';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, RouterModule, AmlLayoutModule],
+  imports: [BrowserModule, AppRoutingModule, RouterModule, AmlLayoutModule, DragDropModule],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
 })

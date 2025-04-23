@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ShortContnetComponent } from './short-contnet.component';
+import { ShortContentComponent } from './short-content.component';
 
-describe('ShortContnetComponent', () => {
-  let component: ShortContnetComponent;
-  let fixture: ComponentFixture<ShortContnetComponent>;
+describe('ShortContentComponent', () => {
+  let component: ShortContentComponent;
+  let fixture: ComponentFixture<ShortContentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ShortContnetComponent],
+      declarations: [ShortContentComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ShortContnetComponent);
+    fixture = TestBed.createComponent(ShortContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

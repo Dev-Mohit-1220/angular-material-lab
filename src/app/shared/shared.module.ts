@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ShortContnetComponent } from './components/short-contnet/short-contnet.component';
 import { MatCardModule } from '@angular/material/card';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { ShortContentComponent } from './components/short-content/short-content.component';
 
 @NgModule({
-  declarations: [ShortContnetComponent],
-  imports: [CommonModule, MatCardModule],
+  declarations: [ShortContentComponent],
+  imports: [CommonModule, MatCardModule, DragDropModule],
+  exports: [ShortContentComponent],
 })
 export class SharedModule {}
